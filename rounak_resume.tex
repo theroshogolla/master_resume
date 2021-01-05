@@ -1,0 +1,78 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+\usepackage[margin=0.3in]{geometry}
+\topmargin=-0.5in
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=7.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+ 
+\name{Rounak Chawla\\[12pt]} % the \\[12pt] adds a blank line after name
+ 
+\address{ 216- 713 6931 \\  rounak@case.edu}
+\address{\hfill github.com/theroshogolla \\ \hfill linkedin.com/in/rounakchawla/}
+ 
+\begin{resume} 
+ 
+\section{Education} 
+B.S. Candidate in Computer Science and Philosophy, Case Western Reserve University (CWRU), Cleveland, OH, May 2022 \\
+Specializations: Algorithms, Artificial Intelligence \\
+Cumulative GPA: 3.6 \\ 
+International Baccalaureate, UWC Mahindra College, May 2018: Received a 70\% scholarship to finish high school at a deliberately diverse residential school, part of a global movement to put high school students on the path to becoming changemakers working for peace and a sustainable future.
+
+\section{Work Experience}
+{\bf LiON Care, Cleveland, OH} - Co-Founder \hfill October 2020 - Present
+\begin{itemize} \itemsep -2pt
+	\item Leading a \textbf{5-person team} dedicated to building software to predictively monitor the health of lithium-ion batteries.
+	\item Building a \textbf{Gaussian Process Regression Model} to predict battery aging using \textbf{Python sklearn} and \textbf{AWS}.
+	\item Planning and conducting interviews with \textbf{30 prospective customers} as part of the \textbf{NSF's I-Corps Program}.
+	
+\end{itemize}
+ {\bf HotSpot Inc, Seattle, WA –} Fullstack Intern   \hfill June 2020 - September 2020
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Directed and developed a \textbf{data visualization dashboard} for timestamped capacitive sensing data, using \mbox{\textbf{ReactJS,}} \textbf{Flask,} and \textbf{matplotlib}, for an IoT appliance startup.
+ \item Constructed an optimized \textbf{NoSQL time series data pipeline} using \textbf{AWS DynamoDB,} the \textbf{boto3}  Python package, and the \textbf{AWS SDK for JavaScript.}
+ \item Redesigned the product UI in \textbf{ReactJS} with \textbf{TypeScript} and \textbf{CSS.}
+ \end{itemize}
+ {\bf Boundary Labs, Cleveland, OH –} Backend and Hardware Engineer   \hfill April  2019 - November 2019 
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item A \textbf{Y Combinator} Winter 2020 company, Boundary Labs (now \textbf{Workbench Technologies}) was an IoT startup using edge devices for utilization and efficiency monitoring of factory machines 
+ \item Spearheaded a hardware and software solution for continuous amperage monitoring, at a rate of 2000 samples per second, using \textbf{Arduino} and multithreaded \textbf{Python} scripts on \textbf{Raspberry Pis}, and cloud storage on \textbf{Amazon S3}.
+ \item Constructed a backend architecture and data pipeline to store and query device data (which  handled data for 15 IoT devices) using \textbf{PostgreSQL}, \textbf{AWS RDS}, and  \textbf{boto3.} 
+ \item Developed a data visualization module using \textbf{numpy}, \textbf{matplotlib}, and \textbf{pandas} to compute and plot machine utilization metrics, such as percent uptime and downtime for 15 different machines.
+ \item Implemented an \textbf{Android} application in \textbf{Java} that served as a 24/7 digital endpoint for manufacturing operators, for machine status monitoring and data entry. Used on 3 machine lines.
+ \end{itemize}
+ 
+ {\bf Skylark Drones, Bengaluru, India –} Drone Electronics Intern  \hfill  Summer 2017
+\begin{itemize} \itemsep -2pt %reduce space between items
+\item Researched  the ground control systems \textbf{Mission Planner} and \textbf{MAVProxy}, and the \textbf{MAVLink protocol}, and charted improvements to the indigenous software of India's largest drone services company.
+\item Developed a Python script for post-processing video metadata to assist in the survey of roadways.
+\end{itemize}
+
+
+\section{Awards, Projects, Activities, and Leadership} 
+{\bf Case Western Reserve University} – ThinkEnergy Fellowship   \hfill    August 2020 - May 2021 
+\begin{itemize} \itemsep -2pt
+	\item Awarded a research fellowship focused on technology development, entrepreneurship, and policy in the energy sector.
+\end{itemize}
+{\bf CWRU Undergraduate Diversity Collaborative –} Vice President of Finance     \hfill    April 2019 - April 2020 
+ \begin{itemize} \itemsep -2pt
+ \item Coordinated finances for over 30 different cultural and diversity student organizations on the CWRU campus 
+ \end{itemize}
+{\bf FireWatch Drone System –} Founder and Team Lead  \hfill
+February 2017 - May 2018               
+                \begin{itemize} \itemsep -2pt
+                 \item  Formulated and led the planning, design and construction of an autonomous drone using computer vision in \textbf{MATLAB} to detect forest fires for a local biodiversity reserve.
+		 \end{itemize}
+		
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+
+\end{resume} 
+\end{document} 
+
+
+
